@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App TP1 Emilien</string>
+    <string name="action_settings">Préférences</string>
+    <string name="title_activity_settings">Settings Activity</string>
+</resources>

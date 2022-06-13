@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="remember"
+        android:summary="Le Pseudo renseigné sera automatiquement affiché"
+        android:title="Garder Préférences" />
+    <PreferenceCategory
+        android:key="identifiants"
+        android:summary="Saisie des identifiants utilisateur"
+        android:title="Identifiants">
+        <EditTextPreference
+            android:defaultValue="Emilien"
+            android:key="pseudo"
+            android:title="Pseudo" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
